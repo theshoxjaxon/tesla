@@ -1,0 +1,210 @@
+/* mulish-regular - latin */
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/mulish-v10-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/mulish-v10-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/mulish-v10-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/mulish-v10-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/mulish-v10-latin-regular.svg#Mulish") format("svg"); /* Legacy iOS */
+}
+/* mulish-500 - latin */
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/mulish-v10-latin-500.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/mulish-v10-latin-500.eot") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/mulish-v10-latin-500.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/mulish-v10-latin-500.woff2")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/mulish-v10-latin-500.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/mulish-v10-latin-500.svg")
+      format("svg"); /* Legacy iOS */
+}
+/* mulish-600 - latin */
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/mulish-v10-latin-600.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/mulish-v10-latin-600.eot") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/mulish-v10-latin-600.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/mulish-v10-latin-500.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/mulish-v10-latin-600.woff")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/mulish-v10-latin-600.svg")
+      format("svg"); /* Legacy iOS */
+}
+/* mulish-700 - latin */
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/mulish-v10-latin-700.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/mulish-v10-latin-700.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/mulish-v10-latin-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/mulish-v10-latin-700.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/mulish-v10-latin-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/mulish-v10-latin-700.svg#Mulish")
+      format("svg"); /* Legacy iOS */
+}
+/* mulish-800 - latin */
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/mulish-v10-latin-800.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/mulish-v10-latin-800.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/mulish-v10-latin-800.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/mulish-v10-latin-800.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/mulish-v10-latin-800.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/mulish-v10-latin-800.svg#Mulish")
+      format("svg"); /* Legacy iOS */
+}
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0px;
+  box-sizing: border-box;
+}
+ul,
+li,
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+a {
+  color: #171a20;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-image: url("../images/ms-homepage-desktop.jpg");
+  background-position: center center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+.container {
+  max-width: 1257px;
+  padding: 0px, 20px;
+  padding-top: 10px;
+  margin: 0px auto;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.list {
+  display: flex;
+  align-items: center;
+  transition: transform 0.5s ease;
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+.list__item {
+  padding: 10px;
+  border-radius: 15px;
+}
+.list__item:hover {
+  background-color: #b4b4b4;
+  transition: ease all 0.33s;
+}
+:root {
+  --tcl-body-accessible-background-color: #757575;
+  --tcl-body-background-color: var(--tds-color--white);
+  --tds-border_width--hairline: 0.5px;
+  --tds-border_width--small: 1px;
+  --tds-border_width--medium: 3px;
+  --tds-border_style--base: solid;
+}
+.list-nav {
+  display: flex;
+  align-items: center;
+}
+.list-nav__item {
+  align-items: center;
+  padding: 10px;
+  border-radius: 15px;
+}
+.box {
+  position: absolute;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  top: 20%;
+  left: 50%;
+}
+.box__head {
+  font-family: "Mulish", sans-serif;
+  font-size: 40px;
+}
+.box__desc {
+  width: 800px;
+  font-size: 16px;
+}
+.header__btns {
+  display: flex;
+  position: absolute;
+  text-align: center;
+  transform: translate(-50%, -70%);
+  top: 85%;
+  left: 50%;
+}
+.btn {
+  display: block;
+  width: 265px;
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+}
+.btn-gray {
+  background-color: #3a3d42;
+  margin-right: 19px;
+}
+.btn:hover {
+  border: 1px solid snow;
+  opacity: 0.7;
+}
+.btn:active {
+  opacity: 0.9;
+}
+/* .box__link { */
+/* } */
+.main {
+  flex-grow: 1;
+}
