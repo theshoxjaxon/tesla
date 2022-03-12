@@ -188,19 +188,23 @@ img {
 .btn {
   display: block;
   width: 265px;
-  padding: 15px;
+  padding: 10px 15px;
   border-radius: 15px;
   border: none;
 }
 .btn-gray {
   background-color: #3a3d42;
   margin-right: 19px;
+  color: #fff;
 }
-.btn:hover {
-  border: 1px solid snow;
+.btn-white {
+  color: #171a20;
+}
+.btn-gray:hover {
   opacity: 0.7;
+  border: 1px solid snow;
 }
-.btn:active {
+.btn-gray:active {
   opacity: 0.9;
 }
 /* .box__link { */
